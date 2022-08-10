@@ -1,0 +1,6 @@
+services:
+  my-msgs:
+    build: .
+    volumes:
+      - .:/ros_ws/src 
+    command: sleep 3600

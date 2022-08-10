@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>husarion_msg_srv</name>
+  <version>1.0.0</version>
+  <description>Custom Husarion Messages</description>
+  <maintainer email="contact@husarion.com">husarion</maintainer>
+  <license>Apache 2.0</license>
+
+  <export>
+    <architecture_independent/>
+  </export>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <build_export_depend>message_generation</build_export_depend>
+</package>
